@@ -1,0 +1,132 @@
+.career-portfolio-elementor-builder #myfullpage > .primary-secondary-wrap{
+	padding:150px 0 0;
+}
+.career-portfolio-elementor-builder.no_sidebar .primary-secondary-wrap>.container{
+    width: 100%;
+		max-width:100%;
+}
+.blog-item {
+    margin: 0 0px 30px;
+}
+
+
+#menu-social-menu li a {
+		font-size: 0;
+		text-transform:uppercase;
+}
+
+.header-social ul li a:hover:before {
+	color: #fff;
+	font-size: 50px!important;
+	transition: 1s;
+}
+
+#menu-social-menu li a:before {
+    font-family: FontAwesome;
+    display: block;
+		font-size: 30px;
+		transform: rotate(180deg);
+}
+
+
+#menu-social-menu li a[href*="facebook.com"]::before {
+    content: "\f09a"
+}
+
+#menu-social-menu li a[href*="youtube.com"]::before {
+    content: "\f167"
+}
+
+
+#menu-social-menu li a[href*="instagram.com"]::before {
+    content: "\f16d"
+}
+
+a.nav-button:hover > span,
+.hgroup-wrap,
+.back-to-top > a{
+	background-color: #ff5500;
+	transition: .5s;
+}
+
+.hgroup-wrap > a,
+.search-container > form,
+.footer-wrap{
+	background-color: #e44226;
+}
+
+
+@media (max-width: 1024px) {
+	.back-to-top {
+		bottom: 90px;
+	}
+	
+	#colophon {
+		bottom: 80px;
+		padding-left: 0px;
+	}
+	
+	#myfullpage {
+		padding-left: 0;
+		padding-bottom: 75px;
+	}
+	
+	#myfullpage .container {
+		padding: 0
+	}
+	
+	.hgroup-wrap {
+		padding-top: 0!important;
+		top: auto;
+		bottom: 0px;
+		width: 100%;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		height: 80px;
+	}
+
+	.hgroup-wrap > a {
+		position: relative!important;
+		height: 80px;
+		width: 80px;
+		min-width: 80px;
+	}
+
+	.header-social {
+		padding-bottom: 25px!important;
+		top: 0!important;
+		bottom: 0!important;
+		flex-direction: row;
+		position: relative;
+		width: 90%;
+	}
+
+	#menu-social-menu {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	#menu-social-menu > * {
+		padding: 0 3vw;
+	}
+}
+
+#masthead > .site-branding {
+	padding: 0!important;
+	transform: translateX(-50%);
+}
+
+#masthead .site-description {
+	white-space: nowrap;
+}
+
+.copyright-part {
+	font-size: 0px;
+}
+
+.copyright-part:after {
+	font-size: 14px;
+	content: "Created with Theme 404 by HKSC";
+	color: #fff;
+}
